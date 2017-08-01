@@ -1,0 +1,4 @@
+In order to setup the Optimal Plan Recognition solver, you'll need to:
+
+1) Build the program for compiling observations away (see folder obs-compiler), and put the resulting executable binary file 'plan2pr' inside this folder.
+2) Download the sources for Patrik Haslum's optimal planner from the IPC-6 homepage, http://bit.ly/aI5xoS, build them, and put the resulting executable file 'hsp_f' inside this folder.

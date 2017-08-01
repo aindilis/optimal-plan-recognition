@@ -1,0 +1,5 @@
+Domain=INTRUSION-DETECTION
+Problem=INTRUSION-DETECTION-10-HOSTS
+Preprocessing=<1 msec
+Fluents=91
+Operators=92
