@@ -1,0 +1,7 @@
+Timeout: 14400 seconds
+Heap restriction: 2048 MB
+Command: (../../hsp_f -strict -dba-semantics -rm -cost -rAH -use-lse -bfs -ub 18 -v 0 -ipc pr-domain-hyp-1.pddl pr-problem-hyp-1.pddl > pr-problem-hyp-1.soln) >> pr-problem-hyp-1.log 2>&1
+
+error: can't open 18
+
+Failed! [Signal 65280, Time 0.000 seconds]

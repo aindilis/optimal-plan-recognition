@@ -19,7 +19,7 @@ class hsp_IPC6_Command :
 			ub_string = ''
 		else :
 			ub_string = '-ub %s'%self.upper_bound
-		cmd_string = './hsp_f -strict -dba-semantics -rm -cost -rAH -use-lse -bfs %s -v 0 -ipc %s %s > %s.soln'%( ub_string, self.domain, self.problem, self.noext_problem)
+		cmd_string = '../../hsp_f -strict -dba-semantics -rm -cost -rAH -use-lse -bfs %s -v 0 -ipc %s %s > %s.soln'%( ub_string, self.domain, self.problem, self.noext_problem)
 		self.log = benchmark.Log( '%s.log'%self.noext_problem )
 		self.signal, self.time = benchmark.run( cmd_string, self.max_time, self.max_mem, self.log )
 		self.gather_data()
@@ -52,7 +52,7 @@ class Translate_Command :
 		self.max_mem = max_mem
 
 	def execute( self ) :
-		cmd_string = './pr2plan -d %s -i %s -o %s'%(self.domain, self.problem, self.obs_stream)
+		cmd_string = '../../pr2plan -d %s -i %s -o %s'%(self.domain, self.problem, self.obs_stream)
 		self.log = benchmark.Log( '%s_%s_%s_transcription.log'%(self.domain, self.problem, self.obs_stream) )
 		self.signal, self.time = benchmark.run( cmd_string, self.max_time, self.max_mem, self.log )
 

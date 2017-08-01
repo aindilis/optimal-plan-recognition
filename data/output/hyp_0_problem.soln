@@ -1,0 +1,27 @@
+; Time 0.02
+; ParsingTime 0
+; NrActions 
+; MakeSpan 
+; MetricValue 20
+0 : (recon taurus) [1]
+1 : (recon libra) [1]
+2 : (recon leo) [1]
+3 : (recon aries) [1]
+4 : (recon virgo) [1]
+5 : (recon scorpio) [1]
+6 : (recon sagittarius) [1]
+7 : (recon andromeda) [1]
+8 : (recon cassiopea) [1]
+9 : (recon perseus) [1]
+10 : (information-gathering taurus) [1]
+11 : (information-gathering libra) [1]
+12 : (information-gathering leo) [1]
+13 : (information-gathering aries) [1]
+14 : (information-gathering virgo) [1]
+15 : (information-gathering scorpio) [1]
+16 : (information-gathering sagittarius) [1]
+17 : (information-gathering andromeda) [1]
+18 : (information-gathering cassiopea) [1]
+19 : (information-gathering perseus) [1]
+;; stats: intrusion-detection::intrusion-detection-10-hosts 1 1 20 20 20 0.02 6100 0 0 0 0.008 0.86031 0.13969
+;; (:heuristic ((information-gathered taurus)(information-gathered libra)(information-gathered leo)(information-gathered aries)(information-gathered virgo)(information-gathered scorpio)(information-gathered sagittarius)(information-gathered andromeda)(information-gathered cassiopea)(information-gathered perseus)) 0)

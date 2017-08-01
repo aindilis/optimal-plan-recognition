@@ -1,0 +1,22 @@
+; Time 0.012
+; ParsingTime 0
+; NrActions 
+; MakeSpan 
+; MetricValue 15
+0 : (recon leo) [1]
+1 : (break-into leo) [1]
+2 : (modify-files leo) [1]
+3 : (clean leo) [1]
+4 : (vandalize leo) [1]
+5 : (recon taurus) [1]
+6 : (break-into taurus) [1]
+7 : (modify-files taurus) [1]
+8 : (clean taurus) [1]
+9 : (vandalize taurus) [1]
+10 : (recon perseus) [1]
+11 : (break-into perseus) [1]
+12 : (modify-files perseus) [1]
+13 : (clean perseus) [1]
+14 : (vandalize perseus) [1]
+;; stats: intrusion-detection::intrusion-detection-10-hosts 1 1 9 15 221 0.012 5612 0 0 218 0.008 0.960971 0.0390286
+;; (:heuristic ((vandalized taurus)(vandalized leo)(vandalized perseus)) 14)

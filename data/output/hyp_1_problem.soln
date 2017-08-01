@@ -1,0 +1,25 @@
+; Time 0.04
+; ParsingTime 0
+; NrActions 
+; MakeSpan 
+; MetricValue 18
+0 : (recon perseus) [1]
+1 : (break-into perseus) [1]
+2 : (clean perseus) [1]
+3 : (gain-root perseus) [1]
+4 : (download-files perseus) [1]
+5 : (steal-data perseus) [1]
+6 : (recon aries) [1]
+7 : (break-into aries) [1]
+8 : (clean aries) [1]
+9 : (gain-root aries) [1]
+10 : (download-files aries) [1]
+11 : (steal-data aries) [1]
+12 : (recon taurus) [1]
+13 : (break-into taurus) [1]
+14 : (clean taurus) [1]
+15 : (gain-root taurus) [1]
+16 : (download-files taurus) [1]
+17 : (steal-data taurus) [1]
+;; stats: intrusion-detection::intrusion-detection-10-hosts 1 1 9 18 606 0.04 6004 0 0 604 0.032 0.975674 0.0243258
+;; (:heuristic ((data-stolen-from taurus)(data-stolen-from aries)(data-stolen-from perseus)) 17)

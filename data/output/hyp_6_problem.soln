@@ -1,0 +1,22 @@
+; Time 0.012
+; ParsingTime 0
+; NrActions 
+; MakeSpan 
+; MetricValue 15
+0 : (recon virgo) [1]
+1 : (break-into virgo) [1]
+2 : (modify-files virgo) [1]
+3 : (clean virgo) [1]
+4 : (vandalize virgo) [1]
+5 : (recon libra) [1]
+6 : (break-into libra) [1]
+7 : (modify-files libra) [1]
+8 : (clean libra) [1]
+9 : (vandalize libra) [1]
+10 : (recon scorpio) [1]
+11 : (break-into scorpio) [1]
+12 : (modify-files scorpio) [1]
+13 : (clean scorpio) [1]
+14 : (vandalize scorpio) [1]
+;; stats: intrusion-detection::intrusion-detection-10-hosts 1 1 9 15 221 0.012 5612 0 0 218 0.008 0.960971 0.0390286
+;; (:heuristic ((vandalized libra)(vandalized virgo)(vandalized scorpio)) 14)

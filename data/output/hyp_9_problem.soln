@@ -1,0 +1,24 @@
+; Time 0.028
+; ParsingTime 0
+; NrActions 
+; MakeSpan 
+; MetricValue 17
+0 : (recon libra) [1]
+1 : (break-into libra) [1]
+2 : (modify-files libra) [1]
+3 : (clean libra) [1]
+4 : (vandalize libra) [1]
+5 : (recon perseus) [1]
+6 : (break-into perseus) [1]
+7 : (clean perseus) [1]
+8 : (gain-root perseus) [1]
+9 : (download-files perseus) [1]
+10 : (steal-data perseus) [1]
+11 : (recon cassiopea) [1]
+12 : (break-into cassiopea) [1]
+13 : (clean cassiopea) [1]
+14 : (gain-root cassiopea) [1]
+15 : (download-files cassiopea) [1]
+16 : (steal-data cassiopea) [1]
+;; stats: intrusion-detection::intrusion-detection-10-hosts 1 1 9 17 444 0.028 5908 0 0 442 0.02 0.969333 0.0306667
+;; (:heuristic ((vandalized libra)(data-stolen-from cassiopea)(data-stolen-from perseus)) 16)

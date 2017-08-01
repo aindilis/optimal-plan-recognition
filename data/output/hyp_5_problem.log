@@ -1,0 +1,33 @@
+Timeout: 14400 seconds
+Heap restriction: 2048 MB
+Command: (../../hsp_f -strict -dba-semantics -rm -cost -rAH -use-lse -bfs  -v 0 -ipc domain.pddl hyp_5_problem.pddl > hyp_5_problem.soln) >> hyp_5_problem.log 2>&1
+
+instantiating...
+preprocessing...
+0 implied goals found
+instance intrusion-detection::intrusion-detection-10-hosts built in 0 seconds
+17 atoms (3 goals), 0 resources (0 reusable, 0 consumable), 17 actions, 0 invariants
+constructing reversed instance...
+reversed instance: 34 atoms (17 goals), 17 actions, 
+computing heuristic...
+computing h^1...
+17 action pre-partitions...
+9 additive H2 built
+8 useless action sets detected
+h^2 compiled: 1 pairs, complete = 1
+h^2 compiled: 1 pairs, complete = 1
+h^2 compiled: 1 pairs, complete = 1
+h^2 compiled: 1 pairs, complete = 1
+h^2 compiled: 34 pairs, complete = 1
+h^2 compiled: 1 pairs, complete = 1
+h^2 compiled: 1 pairs, complete = 1
+h^2 compiled: 34 pairs, complete = 1
+h^2 compiled: 34 pairs, complete = 1
+heuristic computed in 0.008 seconds (0 nodes, 0.008 seconds, 5540k heap, 0k stack)
+search root: {}
+estimated goal cost: 9
+using A*...
+searching...
+search complete (444 nodes, 0.028 seconds, 5908k heap, 0k stack)
+
+Time spent: 0.030 seconds

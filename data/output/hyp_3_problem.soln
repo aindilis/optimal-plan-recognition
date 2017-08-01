@@ -1,0 +1,21 @@
+; Time 0.008
+; ParsingTime 0
+; NrActions 
+; MakeSpan 
+; MetricValue 14
+0 : (recon taurus) [1]
+1 : (break-into taurus) [1]
+2 : (modify-files taurus) [1]
+3 : (clean taurus) [1]
+4 : (vandalize taurus) [1]
+5 : (recon leo) [1]
+6 : (break-into leo) [1]
+7 : (clean leo) [1]
+8 : (gain-root leo) [1]
+9 : (download-files leo) [1]
+10 : (steal-data leo) [1]
+11 : (gain-root taurus) [1]
+12 : (download-files taurus) [1]
+13 : (steal-data taurus) [1]
+;; stats: intrusion-detection::intrusion-detection-10-hosts 1 1 8 14 117 0.008 5544 0 0 115 0.004 0.89899 0.10101
+;; (:heuristic ((vandalized taurus)(data-stolen-from taurus)(data-stolen-from leo)) 13)
