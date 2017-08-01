@@ -1,7 +1,7 @@
 This is an attempt to get plan-recognition.tar.bz2 working from
 https://sites.google.com/site/prasplanning/file-cabinet.
 
-The pddl dir is a subdir exatracted from aaai-10-benchmarks.zip
+The pddl dir is a subdir extracted from aaai-10-benchmarks.zip
 
 putting pddl/real_hyp.dat into the goal section of pddl/template.pddl
 
